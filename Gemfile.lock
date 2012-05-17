@@ -22,7 +22,14 @@ GIT
 PATH
   remote: .
   specs:
-    kgbhomeAPI (0.1)
+    kgbhomeAPI (0.1.0)
+      httparty
+      hub
+      json
+      kgbhomeAPI
+      sinatra
+      sinatra-contrib
+      thin
 
 GEM
   remote: http://rubygems.org/
