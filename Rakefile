@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "kgbhomeAPI"
   gem.homepage = "http://github.com/kingbin/kgbhomeAPI"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Home Automation Sinatra RESTful API}
+  gem.description = %Q{Home Automation Sinatra RESTful API}
   gem.email = "chris.blazek@gmail.com"
   gem.authors = ["Chris Blazek"]
   # dependencies defined in Gemfile
