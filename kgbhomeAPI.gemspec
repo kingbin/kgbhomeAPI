@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.email = "chris.blazek@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
+    "README.md",
     "README.rdoc"
   ]
   s.files = [
@@ -22,6 +23,7 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
+    "README.md",
     "README.rdoc",
     "Rakefile",
     "VERSION",
@@ -77,6 +79,10 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
+      s.add_development_dependency(%q<shoulda>, [">= 0"])
+      s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
+      s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
+      s.add_development_dependency(%q<simplecov>, [">= 0"])
     else
       s.add_dependency(%q<kgbhomeAPI>, [">= 0"])
       s.add_dependency(%q<thin>, [">= 0"])
@@ -93,6 +99,10 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<autowatchr>, ["= 0.1.5"])
       s.add_dependency(%q<nokogiri>, ["= 1.4.4"])
       s.add_dependency(%q<powder>, ["= 0.1.6"])
+      s.add_dependency(%q<shoulda>, [">= 0"])
+      s.add_dependency(%q<rdoc>, ["~> 3.12"])
+      s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
+      s.add_dependency(%q<simplecov>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
@@ -126,6 +136,10 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<autowatchr>, ["= 0.1.5"])
     s.add_dependency(%q<nokogiri>, ["= 1.4.4"])
     s.add_dependency(%q<powder>, ["= 0.1.6"])
+    s.add_dependency(%q<shoulda>, [">= 0"])
+    s.add_dependency(%q<rdoc>, ["~> 3.12"])
+    s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
+    s.add_dependency(%q<simplecov>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
