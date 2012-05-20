@@ -30,6 +30,9 @@ doc
 # bundler
 .bundle
 
+# curlrc dev file
+.curlrc
+
 # jeweler generated
 pkg
 

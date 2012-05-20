@@ -9,6 +9,9 @@ gemspec
   gem 'httparty'
   gem 'hub'
 
+#  gem 'rack-oauth2-server', :git=> 'git://github.com/assaf/rack-oauth2-server.git'
+  gem 'rack-oauth2-server', "~> 2.6.0"
+
   group :development do
     gem "shoulda", ">= 0"
     gem "rdoc", "~> 3.12"
