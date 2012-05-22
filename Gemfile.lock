@@ -62,6 +62,7 @@ GEM
     multi_xml (0.5.1)
     mynyml-redgreen (0.7.1)
       term-ansicolor (>= 1.0.4)
+    newrelic_rpm (3.3.4.1)
     nokogiri (1.4.4)
     powder (0.1.6)
       thor (>= 0.11.5)
@@ -112,6 +113,7 @@ DEPENDENCIES
   kgbhomeAPI!
   minitest (= 2.0.2)
   mynyml-redgreen (= 0.7.1)
+  newrelic_rpm
   nokogiri (= 1.4.4)
   powder (= 0.1.6)
   rack-oauth2-server (~> 2.6.0)

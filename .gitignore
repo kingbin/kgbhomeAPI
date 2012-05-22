@@ -10,6 +10,7 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+log
 
 # YARD artifacts
 .yardoc
@@ -32,6 +33,9 @@ doc
 
 # curlrc dev file
 .curlrc
+
+# new relic setup file
+newrelic.yml
 
 # jeweler generated
 pkg

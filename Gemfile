@@ -12,6 +12,9 @@ gemspec
 #  gem 'rack-oauth2-server', :git=> 'git://github.com/assaf/rack-oauth2-server.git'
   gem 'rack-oauth2-server', "~> 2.6.0"
 
+# let's get some stats on this badboy
+  gem 'newrelic_rpm'
+
   group :development do
     gem "shoulda", ">= 0"
     gem "rdoc", "~> 3.12"
