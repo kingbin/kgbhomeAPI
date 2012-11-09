@@ -3,8 +3,10 @@ source :rubygems
 gemspec
 
   gem 'thin'
-  gem 'sinatra', :git => 'git://github.com/sinatra/sinatra.git'
-  gem 'sinatra-contrib', :git => 'git://github.com/sinatra/sinatra-contrib.git'
+#  gem 'sinatra', :git => 'git://github.com/sinatra/sinatra.git'
+#  gem 'sinatra-contrib', :git => 'git://github.com/sinatra/sinatra-contrib.git'
+  gem 'sinatra'
+  gem 'sinatra-contrib'
   gem 'json'
   gem 'httparty'
   gem 'hub'
